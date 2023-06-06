@@ -5,4 +5,4 @@ for numbers1 in range(0, 10):
         if numbers1 == 8 and numbers2 == 9:
             print('{}{}'.format(numbers1, numbers2))
         else:
-            print('{}{}'.format(numbers1, numbers2), end=',')
+            print('{}{}'.format(numbers1, numbers2), end=', ')
