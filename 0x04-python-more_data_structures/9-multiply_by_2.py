@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def multiply_by_2(a_dictionary):
-    n_directionary = a_dictionary.copy()
-    k_list = list(n_direction.keys())
+    n_dictionary = a_dictionary.copy()
+    k_list = list(n_dictionary.keys())
     for x in k_list:
-        n_directionary[x] *= 2
-        return (n_directionary)
+        n_dirctionary[x] *= 2
+        return (n_dictionary)
