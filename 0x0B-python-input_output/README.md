@@ -13,7 +13,9 @@ This project has solutions to the following:
 	-Write a function that returns the dictionary description with simple data structure for JSON serialization of an object
 	-Write a class Student that defines a student by:(first_name,last_name,age)
 
+
 Prototypes:
+
 	-def read_file(filename="")
 	-def write_file(filename="", text="")
 	-def append_write(filename="", text="")
