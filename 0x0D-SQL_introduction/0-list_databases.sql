@@ -1,2 +1,2 @@
---Will lists all databases of server
+-- Will lists all databases of server
 SHOW DATABASES;
