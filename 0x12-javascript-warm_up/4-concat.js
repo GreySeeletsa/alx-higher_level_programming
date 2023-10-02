@@ -1,6 +1,8 @@
 #!/usr/bin/node
-
-const arg2 = process.argv[2];
-const arg3 = process.argv[3];
-
-console.log('$[arg2] is $[arg3]');
+const myArgs = process.argv.slice(2);
+if (!myArgs[0]) {
+    console.log("undefined is undefined");
+}
+else {
+    console.log(myArgs[0], 'is', myArgs[1]);
+}
